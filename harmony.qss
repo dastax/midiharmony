@@ -1,0 +1,165 @@
+MidiHarmony, QDialog{
+	background:qlineargradient(x1:0, y1:0, x2:2, y2:1,
+			stop: 0 black, stop: 1 darkgray);
+	color:white; 
+}
+QLabel {
+	color: white;
+}
+QCheckBox {
+	border: none;
+	color: white;
+}
+QWidget:disabled {
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 gray, stop: 1.0 darkgray);
+	color:darkgray;
+}
+
+QPushButton{
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 black, stop: 1.0 darkgray);
+	color:white; 
+	border: 2px outset gray;
+	border-radius:10px;
+	padding: 4px;
+}
+QPushButton:focus{
+	border-color: lightgrey;
+}
+QPushButton:pressed {
+    border-style: inset;
+}
+QMenuBar{
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 black, stop: 1.0 darkgray);
+	color:white; 
+	border: 2px solid transparent;
+	border-radius:10px;
+	padding: 4px;
+}
+QMenuBar::item{
+	background:transparent;
+	color:white; 
+	border: 2px solid transparent;
+	border-radius:10px;
+	padding: 4px;
+}
+QMenuBar::item:selected{
+	border-color: white;
+}
+QMenu{
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 black, stop: 1.0 darkgray);
+	color:white; 
+	padding: 0px;
+	border: 2px outset gray;
+	border-radius:10px;
+}
+QMenu::item{
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 black, stop: 1.0 darkgray);
+	color:white; 
+	border: 2px outset gray;
+	border-radius:10px;
+	margin: 0px;
+	padding: 10px;
+}
+QMenu::item:disabled{
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 gray, stop: 1.0 darkgray);
+	color:darkgray;
+}
+QMenu::item:selected{
+	border-color: white;
+}
+QGroupBox {
+	border: 2px groove gray;
+	border-radius: 10px;
+	font-weight: bold;
+	margin-top: 5px;
+	padding:10px;
+}
+QGroupBox::title {
+	color: white;
+	subcontrol-origin: margin;
+	subcontrol-position: top center; /* position at the top center */
+    	padding: 4px;
+	padding-top:0;
+}
+
+QLineEdit {
+	border: 2px solid gray;
+	border-radius: 10px;
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 black, stop: 1.0 darkgray);
+	color:white; 
+	selection-background-color: darkgray;
+}
+QLineEdit:focus {
+	border-color: lightgrey;
+}
+QListWidget {
+	border: 2px solid gray;
+	border-radius: 10px;
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 black, stop: 1.0 darkgray);
+	color:white;
+}
+QListWidget::item {
+	border: 4px outset gray;
+	border-radius: 10px;
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 black, stop: 1.0 darkgray);
+	color:white;
+}
+QListWidget::item:selected {
+	border: 4px outset white;
+	border-radius: 10px;
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 black, stop: 1.0 darkgray);
+	color:white;
+}
+QLineEdit:focus {
+	border-color: lightgrey;
+}
+
+MidiInputBox {
+	color: white;
+}
+MidiOutputBox {
+	color: white;
+}
+QDial {
+	color: white;
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 black, stop: 1.0 darkgray);
+	border: 1px outset gray;
+	padding: 2px;
+}
+
+QComboBox {
+	color: white;
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 black, stop: 1.0 darkgray);
+	selection-color: black;
+	selection-background-color: white;
+	border: 1px outset gray;
+	padding: 2px;
+}
+QComboBox:focus {
+	border-color: lightgrey;
+}
+QComboBox QAbstractItemView {
+	color: white;
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 black, stop: 1.0 darkgray);
+	selection-color: black;
+	selection-background-color: white;
+	padding: 2px;
+}
+QScrollBar {
+	color: white;
+	background:qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			stop: 0 black, stop: 1.0 darkgray);
+}

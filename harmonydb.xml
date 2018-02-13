@@ -1,0 +1,135 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<MidiHarmonyDB>
+  <chord name="Maj">
+    <note interval="0"/>
+    <note interval="4"/>
+    <note interval="7"/>
+  </chord>
+  <chord name="min">
+    <note interval="0"/>
+    <note interval="3"/>
+    <note interval="7"/>
+  </chord>
+  <chord name='5e -'>
+    <note interval="0"/>
+    <note interval="3"/>
+    <note interval="6"/>
+  </chord>
+  <chord name="5e +">
+    <note interval="0"/>
+    <note interval="4"/>
+    <note interval="8"/>
+  </chord>
+  <chord name="7e Dom">
+    <note interval="0"/>
+    <note interval="4"/>
+    <note interval="7"/>
+    <note interval="10"/>
+  </chord>
+  <chord name="7e min">
+    <note interval="0"/>
+    <note interval="3"/>
+    <note interval="7"/>
+    <note interval="10"/>
+  </chord>
+  <chord name="7e min 5e -">
+    <note interval="0"/>
+    <note interval="3"/>
+    <note interval="6"/>
+    <note interval="10"/>
+  </chord>
+  <chord name="7e Maj">
+    <note interval="0"/>
+    <note interval="4"/>
+    <note interval="7"/>
+    <note interval="11"/>
+  </chord>
+  <chord name="7e -">
+    <note interval="0"/>
+    <note interval="3"/>
+    <note interval="6"/>
+    <note interval="9"/>
+  </chord>
+  <chord name="7e Maj perf min">
+    <note interval="0"/>
+    <note interval="3"/>
+    <note interval="7"/>
+    <note interval="11"/>
+  </chord>
+  <chord name="7e Maj 5e +">
+    <note interval="0"/>
+    <note interval="4"/>
+    <note interval="8"/>
+    <note interval="11"/>
+  </chord>
+  <chord name="9e Maj Dom">
+    <note interval="0"/>
+    <note interval="4"/>
+    <note interval="7"/>
+    <note interval="10"/>
+    <note interval="12"/>
+  </chord>
+  <chord name="9e min Dom">
+    <note interval="0"/>
+    <note interval="4"/>
+    <note interval="7"/>
+    <note interval="10"/>
+    <note interval="11"/>
+  </chord>
+  <chord name="9e Maj 7e min">
+    <note interval="0"/>
+    <note interval="3"/>
+    <note interval="7"/>
+    <note interval="10"/>
+    <note interval="12"/>
+  </chord>
+  <chord name="9e min 7e min">
+    <note interval="0"/>
+    <note interval="3"/>
+    <note interval="7"/>
+    <note interval="10"/>
+    <note interval="11"/>
+  </chord>
+  <chord name="9e min 5e -">
+    <note interval="0"/>
+    <note interval="3"/>
+    <note interval="6"/>
+    <note interval="10"/>
+    <note interval="11"/>
+  </chord>
+  <chord name="9e Maj 7e Maj">
+    <note interval="0"/>
+    <note interval="4"/>
+    <note interval="7"/>
+    <note interval="11"/>
+    <note interval="12"/>
+  </chord>
+  <chord name="9e +">
+    <note interval="0"/>
+    <note interval="4"/>
+    <note interval="7"/>
+    <note interval="11"/>
+    <note interval="13"/>
+  </chord>
+  <chord name="9e min 7e -">
+    <note interval="0"/>
+    <note interval="3"/>
+    <note interval="6"/>
+    <note interval="9"/>
+    <note interval="11"/>
+  </chord>
+  <chord name="9e Maj 7e Maj perf">
+    <note interval="0"/>
+    <note interval="3"/>
+    <note interval="7"/>
+    <note interval="11"/>
+    <note interval="12"/>
+  </chord>
+    <chord name="9e Maj 5e +">
+    <note interval="0"/>
+    <note interval="4"/>
+    <note interval="8"/>
+    <note interval="11"/>
+    <note interval="12"/>
+  </chord>
+</MidiHarmonyDB>

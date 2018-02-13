@@ -1,0 +1,9 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+ <qresource>
+  <file alias="bg">pics/harmony.jpg</file>
+  <file alias="logo">pics/harmony_icon.jpg</file>
+  <file alias="harmony_logo">pics/midi_harmony.png</file>
+  <file alias="qss">harmony.qss</file>
+ </qresource>
+</RCC>
